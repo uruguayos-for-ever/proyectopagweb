@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+
+header{
+    display: flex;
+    padding: 15px 10%;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-enlaces li,a,ul {
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    background-color: blanchedalmond;
+}
+
+.titulo{
+    background-color: blanchedalmond;
+}
+
+.titulo a{
+    font-size: 26px;
+    background-color: blanchedalmond;
+}
