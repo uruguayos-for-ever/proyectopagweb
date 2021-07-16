@@ -2,32 +2,49 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: white;
 }
 
 
 header{
     display: flex;
-    padding: 15px 10%;
-    background-color: blanchedalmond;
+    padding: 10px 10%;
+    background-color: gray;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-enlaces li,a,ul {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
-    color:black;
+    color: rgb(243, 101, 6);
     text-decoration: none;
+    background-color: gray;
     display: inline-block;
-    background-color: blanchedalmond;
+    list-style: none;
 }
 
+.nav-enlaces a{
+    padding: 0px 13px;
+    text-decoration: none;
+    color:orangered;
+}
+
+.nav-enlaces li a:hover{
+    color: orangered;
+}
+
+.nav-enlaces{
+    margin-block-end: 0%;
+}
+
+
 .titulo{
-    background-color: blanchedalmond;
+    background-color: gray;
 }
 
 .titulo a{
-    font-size: 26px;
-    background-color: blanchedalmond;
+    font-size: 35px;
+    background-color: gray;
+    text-decoration: none;
 }
