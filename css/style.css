@@ -1,3 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+header{
+    display: flex;
+    padding: 10px 10%;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-enlaces li,a,ul {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(243, 101, 6);
+    text-decoration: none;
+    background-color: gray;
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-enlaces a{
+    padding: 0px 13px;
+    text-decoration: none;
+    color:orangered;
+}
+
+.nav-enlaces li a:hover{
+    color: orangered;
+}
+
+.nav-enlaces{
+    margin-block-end: 0%;
+}
+
+
+.titulo{
+    background-color: gray;
+}
+
+.titulo a{
+    font-size: 35px;
+    background-color: gray;
+    text-decoration: none;
+}
 html,
 body {
     margin: auto;
