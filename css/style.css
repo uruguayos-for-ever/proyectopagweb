@@ -59,7 +59,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 2000px;
     height: 430px;
     display: flex;
     grid-template-columns: 30px auto 50px;
@@ -67,30 +67,31 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    margin-top: 15px;
 }
 
 .container .card {
     width: 330px;
-    height: 430px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgb(255, 3, 3);
+    height: 450px;
+    border-radius: 9px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.651);
     overflow: hidden;
     text-align: center;
-    transition: all 0.25s;
+    transition: all 0.10s;
 }
 
 .card {
-    margin: 70px;
+    margin: 35px;
 }
 
 .container .card:hover {
-    transform: translateY(-15px);
+    transform: translateY(8px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card .container img {
     width: 330px;
-    height: 220px;
+    height: 430px;
 }
 
 .container .card p {
@@ -103,4 +104,17 @@ body {
     font-weight: 500;
     text-decoration: none;
     color: #064f80
+}
+
+.card a div img :hover {
+    filter: blur(2px);
+    background-color: blue;
+    display: block;
+    transition: all 1000ms;
+}
+
+.wuachin {
+    width: 300px;
+    height: 350px;
+    margin: ;
 }
