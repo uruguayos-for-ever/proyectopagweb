@@ -1,110 +1,123 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-header{
-    display: flex;
-    max-height: 100px;
-    padding: 10px 10%;
-    background-color:red;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-enlaces li,a,ul {
-    font-size: 22px;
-    font-weight: 500;
-    color: rgb(255, 217, 1);
-    text-decoration: none;
-    background-color:red;
-    list-style: none;
-}
-
-.nav-enlaces li a{
-    padding: 0px 20px;
-    text-decoration: none;
-    color: rgb(255, 217, 1);
-    display: block;
-    font-style: oblique;
-}
-
-.nav-enlaces > li{
-    float: left;
-}
-
-.nav-enlaces li ul{
-    display: none;
-    position: absolute;
-    min-height: 140px;
-}
-
-.nav-enlaces ul{
-    padding-left: 0px;
-    margin-block-end: 0%;
-}
-
-.nav-enlaces li:hover > ul{
-    display: block;
-}
-
-.nav-enlaces li a:hover{
-    color: rgb(255, 217, 1);
-}
-
-.nav-enlaces{
-    margin-block-end: 0%;
-}
-
-
-.titulo{
-    background-color:red;
-}
-
-.titulo a{
-    font-size: 35px;
-    background-color:red;
-    text-decoration: none;
-    color: rgb(255, 217, 1);
-    font-style: italic;
-}
-
-.titulo a:hover{
-    color: rgb(255, 217, 1);
-}
-
-.card_compra{
-    display: flex;
-    width: auto;
-    height: auto;
-    margin-top: 200px;
-    justify-content: space-between;
-}
-
-.card_compra div{
-    text-align: center;
-    margin-right: 200px;
-}
-
-.card_compra img{
-    margin-left: 210px;
-}
-
-.card_compra p{
-    margin-right: 80px;
-}
-
-.inputs{
-    margin-top: 150px;
-    margin-left: 90px;
-}
-
-.numero{
-    width: 50px;
-}
-
-.boton{
-    margin-right: 40px;
-}
+        header {
+            display: flex;
+            padding: 10px 10%;
+            background-color: rgb(218, 60, 20);
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-enlaces li,
+        a,
+        ul {
+            font-size: 22px;
+            font-weight: 500;
+            color: rgb(243, 101, 6);
+            text-decoration: none;
+            background-color: rgb(224, 24, 24);
+            display: inline-block;
+            list-style: none;
+        }
+        
+        .nav-enlaces a {
+            padding: 0px 13px;
+            text-decoration: none;
+            color: orangered;
+        }
+        
+        .nav-enlaces li a:hover {
+            color: orangered;
+        }
+        
+        .nav-enlaces {
+            margin-block-end: 0%;
+        }
+        
+        .titulo {
+            background-color: rgb(214, 91, 20);
+        }
+        
+        .titulo a {
+            font-size: 35px;
+            background-color: rgb(230, 59, 17);
+            text-decoration: none;
+        }
+        
+        body {
+            width: 100%;
+            height: 100%;
+            font-family: sans-serif;
+            letter-spacing: 0.03em;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 2000px;
+            height: 100%;
+            display: flex;
+            grid-template-columns: 30px auto 50px;
+            grid-template-rows: 50px auto 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+            margin-top: 15px;
+        }
+        
+        .container .card {
+            width: 300px;
+            height: 700x;
+            border-radius: 6px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.651);
+            overflow: hidden;
+            text-align: center;
+            transition: all 0.10s;
+            background-color: white;
+            margin: 8px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .container .card1 {
+            width: 400px;
+            height: 700px;
+            border-radius: 6px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.651);
+            overflow: hidden;
+            text-align: center;
+            transition: all 0.10s;
+            background-color: white;
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .container .card1:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .container .card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .container .card img {
+            width: 250px;
+            height: 200px;
+        }
+        
+        .container .card1 img {
+            width: 400px;
+            height: 500px;
+        }
+        
+        .card a div img :hover {
+            filter: blur(10px);
+            display: block;
+            transition: all 1000ms;
+        }
+        
+        .container .card h4 {
+            font-weight: 600px;
+            ;
+        }
