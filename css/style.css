@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.5;
 font-family:'Poppins', sans-serif;
 }
+
+
 *{
     margin:0;
     padding:0;
@@ -103,7 +109,8 @@ body{
 }
 
 .texto_quienes_somos  p {
-
+    font-family: 'Poppins', sans-serif;
+    
     
     width: 1200px;
     margin: 30px auto;
