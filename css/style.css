@@ -71,12 +71,12 @@ ul{
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ffffff;
+    color: #f0f1efef;
     transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover {
     color: #24262b;
-    background-color: #ffffff;
+    background-color: #64f351be;
 }
 @media (max-width: 767px){
     .footer-col {
