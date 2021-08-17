@@ -20,8 +20,9 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #dadbdd;
-    padding: 70px 0;
+    background-color: #ffffff;
+    padding: 40px 0;
+    margin-top: 500px;
 }
 .footer-col{
     width: 25%;
@@ -76,7 +77,7 @@ ul{
 }
 .footer-col .social-links a:hover {
     color: #24262b;
-    background-color: #ffffff;
+    background-color: #0018f0;
 }
 @media (max-width: 767px){
     .footer-col {
