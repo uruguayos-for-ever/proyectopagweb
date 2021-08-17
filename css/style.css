@@ -112,6 +112,13 @@ body{
 .texto_quienes_somos {
     text-align: center;
 }
+
+ .footer-col .social-links a img {
+  width: 70px;
+  height: 70px;
+
+
+}
                                        /*nehuen*/
      
                                        header{
