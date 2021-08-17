@@ -41,9 +41,9 @@ ul{
     left: 0;
     bottom: -10px;
     background-color: #4fd42d;
-    height: 2px;
+    height: 3px;
     box-sizing: border-box;
-    width: 50px;
+    width: 60px;
 }
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
