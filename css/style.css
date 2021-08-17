@@ -80,7 +80,7 @@ ul{
 }
 @media (max-width: 767px){
     .footer-col {
-        color:rgb(12, 10, 10);
+    
         width: 50%;
         margin-bottom: 30px;
     }
