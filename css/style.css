@@ -93,14 +93,25 @@ body{
     background-color:#c0c3ca;
     color:rgb(12, 10, 10);
 }
-.contenedor_a{
+.titulo_quienes_somos {
     margin-top: 20px;
 }
-.contenedor_a h2{
+.titulo_quienes_somos h2{
  
    text-align: center;
+  
 }
 
+.texto_quienes_somos  p {
+
+    
+    width: 1200px;
+    margin: 30px auto;
+    
+}
+.texto_quienes_somos {
+    text-align: center;
+}
                                        /*nehuen*/
      
                                        header{
