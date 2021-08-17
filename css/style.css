@@ -117,7 +117,10 @@ body{
   width: 70px;
   height: 70px;
 
-
+}
+.footer-col a img{
+    width: 70px;
+    height: 70px;
 }
                                        /*nehuen*/
      
