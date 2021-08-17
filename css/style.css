@@ -93,7 +93,13 @@ body{
     background-color:#c0c3ca;
     color:rgb(12, 10, 10);
 }
-
+.contenedor_a{
+    margin-top: 20px;
+}
+.contenedor_a h2{
+ 
+   text-align: center;
+}
 
                                        /*nehuen*/
      
