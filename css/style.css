@@ -20,7 +20,7 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #24262b;
+    background-color: #dadbdd;
     padding: 70px 0;
 }
 .footer-col{
@@ -29,7 +29,7 @@ ul{
 }
 .footer-col h4{
     font-size: 18px;
-    color: #ffffff;
+    color: #1d1a1a;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 500;
@@ -40,7 +40,7 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #4fd42d;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -51,15 +51,15 @@ ul{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #1d1a1a;
     text-decoration: none ;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #0c0b0b;
     display: block;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover {
-    color: #ffffff;
+    color: #42e422;
     padding-left: 8px;
 }
 .footer-col .social-links a{
