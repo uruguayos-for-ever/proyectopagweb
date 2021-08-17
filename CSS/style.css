@@ -190,3 +190,37 @@ nav{
 .card1 div div {
     margin-top: 40px;
 }
+
+.div_compra {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+}
+
+.div_compra img{
+    margin-left: 210px;
+    margin-top: 100px;
+}
+
+.div_compra div{
+    margin-right: 80px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.inputs{
+    margin-top: 150px;
+    margin-right: 130px;
+    padding-left: 60px;
+}
+
+.numero{
+    width: 50px;
+    background-color: white;
+}
+
+.boton{
+    margin-right: 40px;
+    background-color: white;
+}
