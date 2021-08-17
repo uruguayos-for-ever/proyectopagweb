@@ -88,40 +88,6 @@ nav{
     color: green;
 }
 
-.card_compra{
-    display: flex;
-    width: auto;
-    height: auto;
-    margin-top: 200px;
-    justify-content: space-between;
-}
-
-.card_compra div{
-    text-align: center;
-    margin-right: 200px;
-}
-
-.card_compra img{
-    margin-left: 210px;
-}
-
-.card_compra p{
-    margin-right: 80px;
-}
-
-.inputs{
-    margin-top: 150px;
-    margin-left: 90px;
-}
-
-.numero{
-    width: 50px;
-}
-
-.boton{
-    margin-right: 40px;
-}
-
 .container {
     width: 100%;
     max-width: 2000px;
