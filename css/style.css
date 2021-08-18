@@ -85,6 +85,16 @@ ul{
         margin-bottom: 30px;
     }
 }
+.footer-col .social-links::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #4fd42d;
+    height: 3px;
+    box-sizing: border-box;
+    width: 60px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.6;
