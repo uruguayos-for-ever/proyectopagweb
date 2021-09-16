@@ -11,13 +11,16 @@
 
 header{
     display: flex;
-    max-height: 100px;
+    height: 100px;
+    width:1700px;
     padding: 10px 10%;
     background-color:white;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
-    font-family: 'Zen Tokyo Zoo';
+    z-index: 2;
+    font-family: 'Zen Tokyo Zoo';  
+    overflow: hidden;
+    position:fixed;
 }
 
 nav{
@@ -229,3 +232,7 @@ nav{
     margin-right: 40px;
     background-color: white;
 }
+
+
+
+
