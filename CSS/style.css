@@ -12,20 +12,16 @@
 header{
     display: flex;
     height: 100px;
-    width:1700px;
+    max-width:1700px;
     padding: 10px 10%;
     background-color:white;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
     font-family: 'Zen Tokyo Zoo';  
-    overflow: hidden;
     position:fixed;
-}
-
-.header{
-    grid-template-columns: 30px auto 50px;
-    grid-template-rows: 50px auto 20px;
+    right: 0;
+    left:0;
 }
 
 nav{
@@ -55,12 +51,6 @@ nav{
     z-index: 1;
 }
 
-.nav-enlaces li ul{
-    display: none;
-    position: absolute;
-    min-height: 140px;
-    z-index: 1;
-}
 
 .nav-enlaces ul{
     padding-left: 0px;
@@ -236,7 +226,19 @@ nav{
     margin-right: 40px;
     background-color: white;
 }
+/*-----------------------*/
 
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.1fr repeat(3, 1fr) 0.1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 5 / 6; }
+    .div3 { grid-area: 5 / 1 / 6 / 6; }
 
 
