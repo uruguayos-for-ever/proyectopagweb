@@ -146,7 +146,7 @@ nav{
     margin-top: 40px;
 }
 
-/*-----------------------*/
+/*Mapeo*/
 
 .parent {
     display: grid;
@@ -156,9 +156,9 @@ nav{
     grid-row-gap: 0px;
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 6; }
-    .div2 { grid-area: 2 / 1 / 5 / 6; }
-    .div3 { grid-area: 5 / 1 / 6 / 6; }
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 1 / 5 / 6; }
+.div3 { grid-area: 5 / 1 / 6 / 6; }
 
 @media only screen and (max-width:790px){
     .parent {
@@ -169,11 +169,11 @@ nav{
         grid-row-gap: 0px;
         }
         
-        .div1 { grid-area: 1 / 1 / 2 / 4; }
-        .div2 { grid-area: 2 / 1 / 3 / 4; }
-        .div3 { grid-area: 3 / 1 / 4 / 4; }
+    .div1 { grid-area: 1 / 1 / 2 / 4; }
+    .div2 { grid-area: 2 / 1 / 3 / 4; }
+    .div3 { grid-area: 3 / 1 / 4 / 4; }
 
-    header{
+     header{
         justify-content: center;
     }
 
@@ -181,29 +181,35 @@ nav{
         display: none;
     }
 }
-/****************************/
+
+/*Footer*/
 
 .contenedor{
     max-width: 1700px;
     margin: auto;
 }
+
 .raw{
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
 }
+
 ul{
     list-style: none;
 }
+
 .footer{
     background-color: #ffffff;
     padding: 40px 0;
 }
+
 .footer-col{
     width: 25%;
     padding: 0 15px;
     background-color: #ffffff;
 }
+
 .footer-col h4{
     font-size: 18px;
     color: #1d1a1a;
@@ -213,6 +219,7 @@ ul{
     position: relative;
     background-color: #ffffff;
 }
+
 .footer-col h4::before{
     content: '';
     position: absolute;
@@ -223,9 +230,11 @@ ul{
     box-sizing: border-box;
     width: 50px;
 }
+
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
+
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
@@ -246,6 +255,7 @@ ul{
     color: #42e422;
     padding-left: 8px;
 }
+
 .footer-col .social-links a{
     display: inline-block;
     height: 40px;
@@ -267,6 +277,7 @@ ul{
     color: #24262b;
     background-color: #0018f0;
 }
+
 @media (max-width: 767px){
     .footer-col {
         color: rgb(12, 10, 10);
@@ -274,6 +285,7 @@ ul{
         margin-bottom: 30px;
     }
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.6;
@@ -281,9 +293,11 @@ body{
     background-color:#c0c3ca;
     color:rgb(12, 10, 10);
 }
+
 .titulo_quienes_somos {
     margin-top: 20px;
 }
+
 .titulo_quienes_somos h2{
  
    text-align: center;
@@ -297,15 +311,17 @@ body{
     margin: 30px auto;
     
 }
+
 .texto_quienes_somos {
     text-align: center;
 }
 
- .footer-col .social-links a img {
+.footer-col .social-links a img {
   width: 70px;
   height: 70px;
 
 }
+
 .footer-col a img{
     width: 70px;
     height: 70px;
