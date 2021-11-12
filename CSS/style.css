@@ -1,8 +1,57 @@
 *{
-    box-sizing: border-box;
+    background: #293838 url("imagen.png");
     margin: 0;
     padding: 0;
 }
+
+
+
+h1 {
+    color: #6c2eb9;
+    font-size: 40px;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  h2{
+
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+
+  p{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10%;
+    margin-top: 0%;
+
+  }
+
+
+
+  body{
+
+  background: rgba(216, 4, 14, 0.2)
+  
+
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 header{
