@@ -9,7 +9,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: grey;
+}
+
+/*Body*/
+
+.body {
+  background-color: grey;;
 }
 
 /*Header*/
@@ -108,7 +113,7 @@ nav{
 }
 
 
-.container .card1 {
+.container .card {
     width: 400px;
     height: 570px;
     border-radius: 6px;
@@ -120,36 +125,38 @@ nav{
     margin: 30px 15px 15px;
     text-decoration: none;
     color: black;
+    border: hidden;
 }
 
 
-.card1 div{
+.card div{
     background-color: white;
 }
 
-.card1 div div h3{
+.card div div h3{
     background-color: white;
     height: 100px;
     font-size: 50px;
     font-family: 'Bree Serif', serif;
 }
 
-.card1 p{
+.card p{
     background-color: white;
 }
 
-.container .card1:hover {
+.container .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 
-.container .card1 img {
+.container .card img {
     width: 400px;
     height: 450px;
+    object-fit:cover;
 }
 
-.card1 div div{
+.card div div{
     margin-top: 25px;
 }
 /*Mapeo*/
