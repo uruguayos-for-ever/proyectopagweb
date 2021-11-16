@@ -1,10 +1,20 @@
+/*imports*/
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300&family=Roboto&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*Universal*/
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: grey;
+}
+
+/*Body*/
+
+.body {
+  background-color: grey;;
 }
 
 /*Header*/
@@ -12,7 +22,7 @@
 header{
     display: flex;
     height: 100px;
-    max-width:1700px;
+    max-width:100%;
     padding: 10px 10%;
     background-color:white;
     justify-content: space-between;
@@ -91,7 +101,7 @@ nav{
 
 .container {
     width: 100%;
-    max-width: 2000px;
+    max-width: 100%;
     height: 100%;
     display: flex;
     grid-template-columns: 30px auto 50px;
@@ -99,53 +109,56 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    font-family: 'PT Mono', monospace;
+    padding-top:20px ;
 }
 
 
-.container .card1 {
+.container .card {
     width: 400px;
-    height: 700px;
+    height: 570px;
     border-radius: 6px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.651);
     overflow: hidden;
     text-align: center;
     transition: all 0.10s;
     background-color: white;
-    margin: 15px;
-    margin-top: 30px;
+    margin: 30px 15px 15px;
     text-decoration: none;
     color: black;
+    border: hidden;
 }
 
 
-.card1 div{
+.card div{
     background-color: white;
 }
 
-.card1 h3{
+.card div div h3{
+    background-color: white;
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+.card p{
     background-color: white;
 }
 
-.card1 p{
-    background-color: white;
-}
-
-.container .card1:hover {
+.container .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 
-.container .card1 img {
+.container .card img {
     width: 400px;
-    height: 550px;
+    height: 450px;
+    object-fit:cover;
 }
 
-.card1 div div {
-    margin-top: 40px;
+.card div div{
+    margin-top: 25px;
 }
-
 /*Mapeo*/
 
 .parent {
@@ -186,7 +199,7 @@ nav{
 /*Footer*/
 
 .contenedor{
-    max-width: 1700px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -289,7 +302,6 @@ ul{
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.6;
     font-family:'Poppins', sans-serif;
@@ -332,7 +344,7 @@ body{
     height: 70px;
 }
 
-/*********************************************/
+/*Boton de WPP*/
 
 .boton-wpp{
     position: fixed;
