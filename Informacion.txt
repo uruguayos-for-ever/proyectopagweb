@@ -1,2 +1,0 @@
-Estos son los html y css basicos para la pagina.
-Cuando el cliente nos de la informacion de los elementos que vende, se realizara la creacion de archivos html y elementos css dedicados para cada producto
